@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.rectangle {
+    width: 120%;
+	height: 1000px;
+	background-color: #F3F7FF;
+    
+    
+}
+
+.call {
+    width: 264px;
+    height: 60px;
+    border-radius: 90px;
+    top: 20px;
+    border: 1px solid #182877; /* Параметры рамки */
+    background: #ffffff; /* Цвет фона */
+    font-size: 16px; /* Размер текста */
+    padding: 5px 20px;
+    color: #182877;
+    
+}
+body {
+font-family: 'Montserrat', sans-serif;
+}
+.h1 {
+    position: relative;
+    color:red;
+    font-size:500%;
+    left: 10%;
+    bottom: 1420px;
+      
+}
+.h2 {
+    position: relative;
+    width: 1;
+    color: #182877;
+    font-size: 300%;
+    left: 9%;
+    bottom: 1400px;
+    line-height: 1;
+    padding: 1px 20px;
+
+}
+.line {
+    width: 30px; /* Ширина линии */
+    position: relative;
+    height: 2px; /* Высота линии (толщина) */
+    background-color: #182877;
+    bottom: 630px;
+    left: 11%
+}
+.colored-text {
+    color: #182877; /* Цвет текста */
+}
+p {
+    position: relative;
+    bottom: 1360px;
+    left: 13%;
+    font-size: 18px
+}
+.oval-button {
+    position: relative;
+    background-color: red; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 80px; /* Задаем радиус для овальной формы */
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 15px; /* Размер шрифта */
+    left: 11%;
+    bottom: 1320px;
+    width: 400px;
+    height: 70px;
+
+  }
+  
+  /* Определяем, как будет выглядеть кнопка при наведении */
+  .oval-button:hover {
+    background-color: darkred; /* Изменяем цвет фона при наведении */
+  }
