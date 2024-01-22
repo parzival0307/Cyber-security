@@ -1,0 +1,12 @@
+@media screen and (max-width: 880px) {
+    nav ul li a {
+        font-size:8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav,
+    .auth {
+        display:none;
+    }
+}
