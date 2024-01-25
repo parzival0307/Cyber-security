@@ -496,8 +496,10 @@ font-weight: 100;
   width: 1000px;
   height: 900px;
   top: 3365px;
-  left:430px;
-  position: absolute;
+  position:absolute;
+  left: 50%; /* Разместите прямоугольник на 50% от левого края */
+  transform: translateX( -50%);
+  
 }
 .line5 {
     height: 3px; /* Высота линии (толщина) */
@@ -560,4 +562,33 @@ font-weight: 100;
 }
 .oval-button1:hover {
   background-color: darkred; /* Изменяем цвет фона при наведении */
+}
+.slider {
+  display: flex; /* Displays images in a row */
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically */
+}
+.line6 {
+  height: 3px; /* Высота линии (толщина) */
+    transform: rotate(-90deg);
+    border: 3px;
+    top: 4400px;
+    left: 49%;
+    background-color:red;
+    width: 35px;
+    position: absolute;
+    transform: translateY(-50%) rotate(-90deg); 
+
+}
+.h17 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  bottom:80px;
+  position: relative;
+}
+.slider img {
+  width: 186px; /* Set the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add margin between the images */
 }
