@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body. html {
+  overflow-x: hidden;
+}
+
+.container44{
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, p, .circle-text1, .circle-text2, .circle-text3, .circle-text4, .circle-text5, .title1, .q1 {
+  font-family: 'Montserrat', sans-serif;
+}
+.homedesktop {
+  width: 100%;
+  height: 4800px;
+  background-color: #FFFFFF;
+  
+
+}
+.rectangle {
+    width: 100%;
+	  height: 1000px;
+	  background-color: #F3F7FF;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+}
+.line6 {
+  background: linear-gradient(90deg, #C9262A 0%, #323E8F 100%);
+  width:100%;
+  height:3px;
+
+}
+.call {
+    width: 264px;
+    height: 60px;
+    border-radius: 90px;
+    top: 15px;
+    border: 1px solid #182877; /* Параметры рамки */
+    background: #ffffff; /* Цвет фона */
+    font-size: 16px; /* Размер текста */
+    padding: 5px 20px;
+    color: #182877;
+    cursor:pointer;
+    position:relative;
+    left: 50%;
+}
+.call img {
+    float: left;
+}
+.call:hover {
+    background-color: rgba(11, 1, 65, 0.308); /* Изменяем цвет фона при наведении */
+  }
+body {
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h1 {
+    position: relative;
+    color:red;
+    font-size:500%;
+    left: 10%;
+    bottom: 1350px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+}
+.h2 {
+    position: relative;
+    width: 1;
+    color: #182877;
+    font-size: 300%;
+    left: 9%;
+    bottom: 1340px;
+    line-height: 1;
+    padding: 1px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.line {
+    width: 30px; /* Ширина линии */
+    position: relative;
+    height: 2px; /* Высота линии (толщина) */
+    background-color: #182877;
+    bottom: 585px;
+    left: 11%
+}
+.colored-text {
+    color: #182877; /* Цвет текста */
+}
+.q2 {
+    position: relative;
+    bottom: 1310px;
+    left: 13%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+.oval-button {
+    position: relative;
+    background-color: red; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 80px; /* Задаем радиус для овальной формы */
+    padding: 5px 5px; /* Отступы внутри кнопки */
+    font-size: 20px; /* Размер шрифта */
+    left: 10%;
+    bottom: 1250px;
+    width: 610px;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  /* Определяем, как будет выглядеть кнопка при наведении */
+  .oval-button:hover {
+    background-color: darkred; /* Изменяем цвет фона при наведении */
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    margin: 10 auto;
+    top: 1000px;
+    background-color: rgb(0, 0, 105);
+    justify-content: space-around;
+    box-sizing: border-box;
+    position: absolute;
+  }
+
+  
+  .circle1 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    margin:35px;
+    margin-right: -55px;
+    margin-left: 100px;
+    padding: 20px 20px 19px 21px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+    
+  }
+    .circle2 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 35px;
+    margin-left: -150px;
+    margin-right: -100px;
+    padding: 20px 16px 20px 24px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+  .circle3 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 35px;
+    margin-left: -100px;
+    margin-right: -50px;
+    padding: 20px 19px 20px 21px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+  .circle4 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 35px;
+    margin-left: -150px;
+    margin-right: -50px;
+    padding: 20px 19px 20px 21px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+  .circle5 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 35px;
+    margin-left: -150px;
+    margin-right: 75px;
+    padding: 20px 19px 20px 21px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+  .circle-text1 {
+    position: absolute; /* Добавляем абсолютное позиционирование */
+    bottom: 130px; /* Устанавливаем отрицательное значение для свойства bottom, чтобы переместить текст под кругом */
+    width: 100%; /* Устанавливаем ширину элемента на 100%, чтобы текст занимал всю ширину круга */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .circle-text2 {
+    position: absolute; /* Добавляем абсолютное позиционирование */
+    bottom: 82px; /* Устанавливаем отрицательное значение для свойства bottom, чтобы переместить текст под кругом */
+    width: 100%; /* Устанавливаем ширину элемента на 100%, чтобы текст занимал всю ширину круга */
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .circle-text3 {
+    position: absolute; /* Добавляем абсолютное позиционирование */
+    bottom: 82px; /* Устанавливаем отрицательное значение для свойства bottom, чтобы переместить текст под кругом */
+    width: 100%; /* Устанавливаем ширину элемента на 100%, чтобы текст занимал всю ширину круга */
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .circle-text4 {
+    position: absolute; /* Добавляем абсолютное позиционирование */
+    bottom: 105px; /* Устанавливаем отрицательное значение для свойства bottom, чтобы переместить текст под кругом */
+    width: 100%; /* Устанавливаем ширину элемента на 100%, чтобы текст занимал всю ширину круга */
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .circle-text5 {
+    position: absolute; /* Добавляем абсолютное позиционирование */
+    bottom: 82px; /* Устанавливаем отрицательное значение для свойства bottom, чтобы переместить текст под кругом */
+    width: 100%; /* Устанавливаем ширину элемента на 100%, чтобы текст занимал всю ширину круга */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .circle1 img,
+  .circle2 img,
+  .circle3 img,
+  .circle4 img,
+  .circle5 img {
+    width: 80px;
+    height: 80px;
+  }
+.line1 { 
+    height: 3px; /* Высота линии (толщина) */
+    transform: rotate(-90deg);
+    border: 3px;
+    top: 1500px;
+    align-items: center;
+    background-color:red;
+    width: 35px;
+    position: absolute;
+    left: 49%;
+    
+}
+
+.title1 {
+    color: #182877;
+    top: 1550px;
+    font-size: 300%;
+    text-align: center;
+    left: 24%;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.line2 {
+  height: 1px;
+  border: 1px;
+  top: 2180px;
+  align-items: center;
+  background-color: #B7CBF3;
+  width: 1070px;
+  position: absolute;
+  left: 24%;
+}
+.line3 {
+  height: 1px;
+  border: 1px;
+  top: 2280px;
+  align-items: center;
+  background-color: #B7CBF3;
+  width: 1070px;
+  position: absolute;
+  left: 24%;
+}
+.container1 {
+  margin-bottom: 25px;
+  position: relative;
+  font-size: 20px;
+  
+}
+
+.blue-box {
+  position: relative;
+  
+  left: 470px;
+  
+  bottom: 4px;
+  width: 110px;
+  background-color: #182877;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.white-text {
+  font-size: 20px;
+  color: white;
+  
+}
+
+.black-text {
+  text-align: center;
+  color: black;
+  margin-left: 110px;
+  position: absolute;
+  left: 10%;
+  bottom: 3px;
+  white-space: nowrap;
+}
+.rectangle1 {
+  background-color:  #F3F7FF;
+  width: 100%;
+  height: 1000px;
+  margin-top: 140px;
+}
+.line4 {
+    height: 3px; /* Высота линии (толщина) */
+    transform: rotate(-90deg);
+    border: 3px;
+    top: 2450px;
+    align-items: center;
+    background-color:red;
+    width: 35px;
+    position: absolute;
+    left: 49%;
+}
+.h4 {
+  color: #182877;
+  top: 2500px;
+  font-size: 40px;
+  text-align: center;
+  left: 25%;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.h5 {
+  top: 2720px;
+  font-size: 20px;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  left: 23%;
+  font-weight: 600;
+}
+.rectangle2 {
+  top: 2870px;
+  width: 800px;
+  height: 400px;
+  left: 550px;
+  background-color: #FFFFFF;
+  position: absolute;
+}
+.h6 {
+  top: 30px;
+  position: relative;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: #182877;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+}
+.ellipse {
+  width: 8px;
+  height: 8px;
+  background-color: #C9262A;
+  top:140px;
+  position: absolute;
+  border-radius: 50%;
+  left:20px;
+}
+.h7 {
+  left: 20px;
+  position: absolute;
+  bottom: -5px;
+  white-space: nowrap;
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.ellipse1 {
+  width: 8px;
+  height: 8px;
+  background-color: #C9262A;
+  top:180px;
+  position: absolute;
+  border-radius: 50%;
+  left:20px;
+}
+.h8 {
+  left: 20px;
+  position: absolute;
+  bottom: -5px;
+  white-space: nowrap;
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.ellipse2 {
+  width: 8px;
+  height: 8px;
+  background-color: #C9262A;
+  top: 220px;
+  position: absolute;
+  border-radius: 50%;
+  left:20px;
+}
+.h9 {
+  left: 20px;
+  position: absolute;
+  bottom: -72px;
+  white-space: nowrap;
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.ellipse3 {
+  width: 8px;
+  height: 8px;
+  background-color: #C9262A;
+  top:140px;
+  position: absolute;
+  border-radius: 50%;
+  left:400px;
+}
+.h10 {
+  left: 20px;
+  position: absolute;
+  bottom: -27px;
+  white-space: nowrap;
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.ellipse4 {
+  width: 8px;
+  height: 8px;
+  background-color: #C9262A;
+  top:220px;
+  position: absolute;
+  border-radius: 50%;
+  left:400px;
+}
+.h11 {
+  left: 20px;
+  position: absolute;
+  bottom: -72px;
+  white-space: nowrap;
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.h12 {
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 380px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.rectangle3 {
+  background-color: #FFFFFF;
+  border-color: #3B5CAD;
+  border-width: 5px;
+  border-style: solid;
+  width: 1000px;
+  height: 900px;
+  top: 3345px;
+  left:23%;
+  display: inline-block;
+  position: absolute;
+}
+.line5 {
+    height: 3px; /* Высота линии (толщина) */
+    transform: rotate(-90deg);
+    border: 3px;
+    top: 70px;
+    align-items: center;
+    background-color:red;
+    width: 35px;
+    position: absolute;
+    left: 49%;
+
+}
+.title2 {
+  align-items: center;
+  position: relative;
+  text-align: center;
+  top:120px;
+  color:#182877;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.h14 {
+  top: 160px;
+  left: 150px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.h15 {
+  top: 250px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+}
+.h16 {
+  font-size: 20px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  top: 320px;
+  font-weight: 600;
+}
+.oval-button1 {
+  position: relative;
+  background-color: red; /* Цвет фона кнопки */
+  color: white; /* Цвет текста */
+  border: none; /* Убираем границу */
+  border-radius: 80px; /* Задаем радиус для овальной формы */
+  padding: 25px 25px 20px 20px; /* Отступы внутри кнопки */
+  font-size: 18px; /* Размер шрифта */
+  transform: translate(-50%, -50%);
+  left: 51%;
+  top:430px;
+  width: 290px;
+  height: 70px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.oval-button1:hover {
+  background-color: darkred;
+}
+.line7 {
+  height: 3px; /* Высота линии (толщина) */
+    transform: rotate(-90deg);
+    border: 3px;
+    top: 4400px;
+    left: 49%;
+    background-color:red;
+    width: 35px;
+    position: absolute;
+    transform: translateY(-50%) rotate(-90deg); 
+
+}
+.h17 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  bottom:350px;
+  position: relative;
+}
+.slider {
+  position: relative;
+  bottom: 300px;
+  display: flex; /* Displays images in a row */
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically */
+}
+.rectangle4 {
+  background-color: #182877;
+  width: 100%;
+  height:130px;
+  top:4600px;
+  margin-top: -130px;
+}
+.slider img {
+  width: 186px; /* Set the width of the images as needed */
+  
+  margin: 0 10px; /* Add margin between the images */
+}
+.left-circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px #00000026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px #00000026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-circle {
+  left: 15%;
+}
+.right-circle {
+  right: 15%;
+}
+.oval-button3 {
+  background-color: transparent;
+  position: relative;
+  color: white; /* Цвет текста */
+  border: none; /* Убираем границу */
+  border-radius: 80px; /* Задаем радиус для овальной формы */
+  font-size: 18px; /* Размер шрифта */
+  font-weight: 400;
+  width: 270px;
+  height: 65px;
+  left: 80%;
+  padding:20px 10px 8px 40px;
+  text-align: center;
+  border: 1px solid #f3f3f3;
+}
+.oval-button3:hover {
+  color: gray;
+  border-color:gray;
+}
+.footer {
+  position: relative;
+  bottom: 200px;
+  left:20%;
+}
+.q4 {
+  font-weight:700;
+   font-size: 50px; 
+   color: #182877;
+   float: left; 
+   margin-right: 20px;
+}
+.q5 {
+  font-weight: 400;
+  top: 15px;
+  font-size: 20px;
+  position: relative;
+  
+}
+.q5 span {
+  display: block;
+  margin-bottom: 20px;
+}
+.oval-button2 {
+  margin-top: -30px;
+  position: relative;
+  background-color: red; /* Цвет фона кнопки */
+  color: white; /* Цвет текста */
+  border: none; /* Убираем границу */
+  border-radius: 80px; /* Задаем радиус для овальной формы */
+  padding: 25px 25px 20px 20px; /* Отступы внутри кнопки */
+  font-size: 18px; /* Размер шрифта */
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+  left: 8%;
+  top:100px;
+  width: 290px;
+  height: 70px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.oval-button2:hover {
+  background-color: darkred;
+}
